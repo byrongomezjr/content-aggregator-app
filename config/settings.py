@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     "django_extensions",
     # My Apps
     "podcasts.apps.PodcastsConfig",
+    # Third Party Apps
+    "django_apscheduler",
 ]
 
 MIDDLEWARE = [
@@ -85,6 +87,20 @@ DATABASES = {
         "ENGINE": "django.db.backends.sqlite3",
         "NAME": BASE_DIR / "db.sqlite3",
     }
+}
+
+LOGGING = {
+    "version": 1,
+    "disable_existing_loggers": False,
+    "handlers": {
+        "console": {
+            "class": "logging.StreamHandler",
+        },
+    },
+    "root": {
+        "handlers": ["console"],
+        "level": "INFO",
+    },
 }
 
 

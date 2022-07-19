@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NPR Economics Podcast Feed</title>
     <link
+      rel="shortcut icon"
+      type="image/png"
+      href="{% static 'imgs/pod-favicon.ico' %}"
+    />
+    <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
@@ -57,14 +62,17 @@
       </div>
     </main>
 
-    <footer class="container-fluid">
-      <div class="row">
+    <footer class="site-footer">
+      <div id="footer1">
         <div class="col text-center">
           <img
             src="{% static 'imgs/python-logo.svg' %}"
             alt="Python Powered"
-            height="40px"
+            height="50px"
           />
+        </div>
+        <div class="copyright col text-center">
+          <p>© 2022 Byron Gomez Jr.</p>
         </div>
       </div>
     </footer>

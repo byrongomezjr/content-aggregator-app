@@ -8,7 +8,7 @@ Color Palette: https://coolors.co/e63946-f1faee-a8dadc-457b9d-1d3557
   --red: #e63946;
   --off-white: #f9f9f9;
   --blue: #457b9d;
-  --gray: #C6D2ED;
+  --light-gray: #f5f5f5;
 }
 
 body {
@@ -29,10 +29,16 @@ a:focus {
 }
 
 #site-logo {
-  max-height: 200px;
+  max-height: 400px;
 }
 
-footer {
+.site-footer {
   padding: 1em;
-  background-color: #457b9d;
+  background-color: #f5f5f5;
+}
+
+.copyright {
+  padding: 1rem;
+  color:black;
+  font-size: .8rem;
 }

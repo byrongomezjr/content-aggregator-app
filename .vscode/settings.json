@@ -1,6 +1,10 @@
 {
     "cSpell.words": [
+        "apscheduler",
         "dateutil",
-        "fetr"
+        "fetr",
+        "jobstore",
+        "jobstores",
+        "pytz"
     ]
 }
