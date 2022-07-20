@@ -1,1 +1,1 @@
-web: gunicorn podcast-app.wsgi
+web: gunicorn config.wsgi
