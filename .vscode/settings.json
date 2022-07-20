@@ -5,6 +5,7 @@
         "fetr",
         "jobstore",
         "jobstores",
-        "pytz"
+        "pytz",
+        "whitenoise"
     ]
 }
