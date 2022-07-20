@@ -1,0 +1,1 @@
+web: gunicorn podcast-app.wsgi
