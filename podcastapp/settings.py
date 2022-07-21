@@ -32,7 +32,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     "localhost",
     "127.0.0.1:8000",
-    "https://economicspodcasts.herokuapp.com/",
+    "https://nprpodcastfeed.herokuapp.com/",
     "127.0.0.1",
 ]
 
