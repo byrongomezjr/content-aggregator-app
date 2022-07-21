@@ -42,7 +42,7 @@
               <div class="col-md-2 my-auto">
                 <img
                   src="{{ episode.image }}"
-                  class="img-fluid ml-3 my-3"
+                  class="img-fluid .max-width: 100%; height: auto"
                   alt="{{ episode.podcast_name }}"
                 />
               </div>
@@ -64,15 +64,19 @@
 
     <footer class="site-footer">
       <div id="footer1">
-        <div class="col text-center">
-          <img
-            src="{% static 'imgs/python-logo.svg' %}"
-            alt="Python Powered"
-            height="50px"
-          />
-        </div>
-        <div class="copyright col text-center">
-          <p>© 2022 Byron Gomez Jr.</p>
+        <div class="col text-center font-family-sans-serif">
+          <h6 class="rutgers">Made at Rutgers,</h6>
+          <h6 class="university">The State University of New Jersey</h6>
+          <h6 class="school">School of Science, Computer Science</h6>
+          <h6 class="copyright">© RU 2022 • Byron Gomez Jr</h6>
+
+          <div class="col text-center">
+            <img
+              src="{% static 'imgs/python-logo.svg' %}"
+              alt="Python Powered"
+              height="50px"
+            />
+          </div>
         </div>
       </div>
     </footer>
