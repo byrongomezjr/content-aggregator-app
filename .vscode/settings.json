@@ -5,6 +5,7 @@
         "fetr",
         "jobstore",
         "jobstores",
+        "podcastapp",
         "pytz",
         "whitenoise"
     ]
