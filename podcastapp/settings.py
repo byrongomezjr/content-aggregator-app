@@ -32,8 +32,9 @@ DEBUG = True
 ALLOWED_HOSTS = [
     "localhost",
     "127.0.0.1:8000",
-    "https://web-production-9b11.up.railway.app/",
+    "web-production-9b11.up.railway.app",
     "127.0.0.1",
+    "0.0.0.0:7775",
 ]
 
 
