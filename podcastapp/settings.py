@@ -32,7 +32,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     "localhost",
     "127.0.0.1:8000",
-    "nprpodcastcontentaggregator-production.up.railway.app/",
+    "nprpodcastcontentaggregator-production.up.railway.app",
     "127.0.0.1",
     "0.0.0.0:7775",
 ]
