@@ -6,7 +6,7 @@ I used RSS Feed from my favorite NPR podcasts, https://www.npr.org/podcasts-and-
 
 & deployment was made using Railway.
 
-You can find the live version of this project here -->> https://web-production-9b11.up.railway.app/ ✌🏼
+You can find the live version of this project here -->> https://nprpodcastcontentaggregator-production.up.railway.app/ ✌🏼
 
 ---
 
