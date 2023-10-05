@@ -1,10 +1,12 @@
 # Standard Library
+from atexit import register
 import logging
 import sched
 
 # Django
 from django.conf import settings
 from django.core.management.base import BaseCommand
+from django.template import Node
 
 # Third Party
 import feedparser

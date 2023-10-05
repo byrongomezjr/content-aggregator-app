@@ -28,9 +28,11 @@ a:focus {
   text-decoration: none;
 }
 
+
 #site-logo {
   max-height: 400px;
 }
+
 
 .site-footer {
   padding: 1em;

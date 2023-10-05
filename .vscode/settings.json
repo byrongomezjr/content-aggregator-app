@@ -2,10 +2,12 @@
     "cSpell.words": [
         "apscheduler",
         "dateutil",
+        "endlinebreakless",
         "fetr",
         "herokuapp",
         "jobstore",
         "jobstores",
+        "linebreakless",
         "nprpodcastfeed",
         "podcastapp",
         "pytz",
