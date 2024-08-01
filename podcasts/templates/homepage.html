@@ -1,3 +1,4 @@
+<!-- templates/homepage.html -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -49,11 +50,11 @@
               <div class="col-md-10">
                 <div class="card-body ml-3">
                   <h3 class="card-title">{{ episode.title }}</h3>
-                  <p class="card-text" style="color: #457b9d">{{ episode.description }}</p>
+                  <!-- safe filter to render HTML content -->
+                  <p class="card-text" style="color: #457b9d">{{ episode.description|safe }}</p>
                   <a href="{{ episode.link }}">
                     <p class="card-text">🎧 Listen to this episode</p>
                   </a>
-
                 </div>
               </div>
             </div>
@@ -88,3 +89,4 @@
     ></script>
   </body>
 </html>
+

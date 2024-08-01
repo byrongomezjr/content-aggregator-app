@@ -1,16 +1,20 @@
 {
     "cSpell.words": [
         "apscheduler",
+        "asgi",
         "dateutil",
         "endlinebreakless",
         "fetr",
+        "gunicorn",
         "herokuapp",
         "jobstore",
         "jobstores",
         "linebreakless",
+        "nprpodcastcontentaggregator",
         "nprpodcastfeed",
         "podcastapp",
         "pytz",
-        "whitenoise"
+        "whitenoise",
+        "wsgi"
     ]
 }
