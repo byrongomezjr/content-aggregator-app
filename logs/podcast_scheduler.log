@@ -1,0 +1,463 @@
+Traceback (most recent call last):
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/core/management/__init__.py", line 259, in fetch_command
+    app_name = commands[subcommand]
+KeyError: 'startjobs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/byrongomezjr/Python/podcast-app/manage.py", line 22, in <module>
+    main()
+  File "/Users/byrongomezjr/Python/podcast-app/manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/core/management/__init__.py", line 446, in execute_from_command_line
+    utility.execute()
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/core/management/__init__.py", line 440, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/core/management/__init__.py", line 266, in fetch_command
+    settings.INSTALLED_APPS
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/conf/__init__.py", line 87, in __getattr__
+    self._setup(name)
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/conf/__init__.py", line 74, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/conf/__init__.py", line 183, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/byrongomezjr/Python/podcast-app/podcastapp/settings.py", line 16, in <module>
+    from whitenoise import WhiteNoise
+ModuleNotFoundError: No module named 'whitenoise'
+Traceback (most recent call last):
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/core/management/__init__.py", line 259, in fetch_command
+    app_name = commands[subcommand]
+KeyError: 'startjobs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/byrongomezjr/Python/podcast-app/manage.py", line 22, in <module>
+    main()
+  File "/Users/byrongomezjr/Python/podcast-app/manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/core/management/__init__.py", line 446, in execute_from_command_line
+    utility.execute()
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/core/management/__init__.py", line 440, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/core/management/__init__.py", line 266, in fetch_command
+    settings.INSTALLED_APPS
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/conf/__init__.py", line 87, in __getattr__
+    self._setup(name)
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/conf/__init__.py", line 74, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/conf/__init__.py", line 183, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/byrongomezjr/Python/podcast-app/podcastapp/settings.py", line 16, in <module>
+    from whitenoise import WhiteNoise
+ModuleNotFoundError: No module named 'whitenoise'
+Traceback (most recent call last):
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/core/management/__init__.py", line 259, in fetch_command
+    app_name = commands[subcommand]
+KeyError: 'startjobs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/byrongomezjr/Python/podcast-app/manage.py", line 22, in <module>
+    main()
+  File "/Users/byrongomezjr/Python/podcast-app/manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/core/management/__init__.py", line 446, in execute_from_command_line
+    utility.execute()
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/core/management/__init__.py", line 440, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/core/management/__init__.py", line 266, in fetch_command
+    settings.INSTALLED_APPS
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/conf/__init__.py", line 87, in __getattr__
+    self._setup(name)
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/conf/__init__.py", line 74, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/conf/__init__.py", line 183, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/byrongomezjr/Python/podcast-app/podcastapp/settings.py", line 16, in <module>
+    from whitenoise import WhiteNoise
+ModuleNotFoundError: No module named 'whitenoise'
+Traceback (most recent call last):
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/core/management/__init__.py", line 259, in fetch_command
+    app_name = commands[subcommand]
+KeyError: 'startjobs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/byrongomezjr/Python/podcast-app/manage.py", line 22, in <module>
+    main()
+  File "/Users/byrongomezjr/Python/podcast-app/manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/core/management/__init__.py", line 446, in execute_from_command_line
+    utility.execute()
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/core/management/__init__.py", line 440, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/core/management/__init__.py", line 266, in fetch_command
+    settings.INSTALLED_APPS
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/conf/__init__.py", line 87, in __getattr__
+    self._setup(name)
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/conf/__init__.py", line 74, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/conf/__init__.py", line 183, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/byrongomezjr/Python/podcast-app/podcastapp/settings.py", line 16, in <module>
+    from whitenoise import WhiteNoise
+ModuleNotFoundError: No module named 'whitenoise'
+Traceback (most recent call last):
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/core/management/__init__.py", line 259, in fetch_command
+    app_name = commands[subcommand]
+KeyError: 'startjobs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/byrongomezjr/Python/podcast-app/manage.py", line 22, in <module>
+    main()
+  File "/Users/byrongomezjr/Python/podcast-app/manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/core/management/__init__.py", line 446, in execute_from_command_line
+    utility.execute()
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/core/management/__init__.py", line 440, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/core/management/__init__.py", line 266, in fetch_command
+    settings.INSTALLED_APPS
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/conf/__init__.py", line 87, in __getattr__
+    self._setup(name)
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/conf/__init__.py", line 74, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/conf/__init__.py", line 183, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/byrongomezjr/Python/podcast-app/podcastapp/settings.py", line 16, in <module>
+    from whitenoise import WhiteNoise
+ModuleNotFoundError: No module named 'whitenoise'
+Traceback (most recent call last):
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/core/management/__init__.py", line 259, in fetch_command
+    app_name = commands[subcommand]
+KeyError: 'startjobs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/byrongomezjr/Python/podcast-app/manage.py", line 22, in <module>
+    main()
+  File "/Users/byrongomezjr/Python/podcast-app/manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/core/management/__init__.py", line 446, in execute_from_command_line
+    utility.execute()
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/core/management/__init__.py", line 440, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/core/management/__init__.py", line 266, in fetch_command
+    settings.INSTALLED_APPS
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/conf/__init__.py", line 87, in __getattr__
+    self._setup(name)
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/conf/__init__.py", line 74, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/conf/__init__.py", line 183, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/byrongomezjr/Python/podcast-app/podcastapp/settings.py", line 16, in <module>
+    from whitenoise import WhiteNoise
+ModuleNotFoundError: No module named 'whitenoise'
+Traceback (most recent call last):
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/core/management/__init__.py", line 259, in fetch_command
+    app_name = commands[subcommand]
+KeyError: 'startjobs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/byrongomezjr/Python/podcast-app/manage.py", line 22, in <module>
+    main()
+  File "/Users/byrongomezjr/Python/podcast-app/manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/core/management/__init__.py", line 446, in execute_from_command_line
+    utility.execute()
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/core/management/__init__.py", line 440, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/core/management/__init__.py", line 266, in fetch_command
+    settings.INSTALLED_APPS
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/conf/__init__.py", line 87, in __getattr__
+    self._setup(name)
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/conf/__init__.py", line 74, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/conf/__init__.py", line 183, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/byrongomezjr/Python/podcast-app/podcastapp/settings.py", line 16, in <module>
+    from whitenoise import WhiteNoise
+ModuleNotFoundError: No module named 'whitenoise'
+Traceback (most recent call last):
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/core/management/__init__.py", line 259, in fetch_command
+    app_name = commands[subcommand]
+KeyError: 'startjobs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/byrongomezjr/Python/podcast-app/manage.py", line 22, in <module>
+    main()
+  File "/Users/byrongomezjr/Python/podcast-app/manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/core/management/__init__.py", line 446, in execute_from_command_line
+    utility.execute()
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/core/management/__init__.py", line 440, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/core/management/__init__.py", line 266, in fetch_command
+    settings.INSTALLED_APPS
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/conf/__init__.py", line 87, in __getattr__
+    self._setup(name)
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/conf/__init__.py", line 74, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/site-packages/django/conf/__init__.py", line 183, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/Users/byrongomezjr/miniforge3/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/byrongomezjr/Python/podcast-app/podcastapp/settings.py", line 16, in <module>
+    from whitenoise import WhiteNoise
+ModuleNotFoundError: No module named 'whitenoise'
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added Job: Planet Money Podcast
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added Job: Talk Python Feed
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added Weekly Job: Delete Old Job Executions.
+Starting scheduler...
+Added job "fetch_planet_money_episodes" to job store "default"
+Added job "fetch_the_indicator_episodes" to job store "default"
+Added job "delete_old_job_executions" to job store "default"
+Scheduler started
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added Job: Planet Money Podcast
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added Job: Talk Python Feed
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added Weekly Job: Delete Old Job Executions.
+Starting scheduler...
+Added job "fetch_planet_money_episodes" to job store "default"
+Added job "fetch_the_indicator_episodes" to job store "default"
+Added job "delete_old_job_executions" to job store "default"
+Scheduler started
+Running job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:18:04 UTC)" (scheduled at 2024-08-01 21:18:04.241033+00:00)
+Running job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:18:04 UTC)" (scheduled at 2024-08-01 21:18:04.241183+00:00)
+Job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:20:04 UTC)" executed successfully
+Job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:20:04 UTC)" executed successfully
+Running job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:22:04 UTC)" (scheduled at 2024-08-01 21:20:04.241033+00:00)
+Running job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:22:04 UTC)" (scheduled at 2024-08-01 21:20:04.241183+00:00)
+Job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:22:04 UTC)" executed successfully
+Job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:22:04 UTC)" executed successfully
+Running job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:24:04 UTC)" (scheduled at 2024-08-01 21:22:04.241033+00:00)
+Running job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:24:04 UTC)" (scheduled at 2024-08-01 21:22:04.241183+00:00)
+Job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:24:04 UTC)" executed successfully
+Job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:24:04 UTC)" executed successfully
+Running job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:26:04 UTC)" (scheduled at 2024-08-01 21:24:04.241033+00:00)
+Running job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:26:04 UTC)" (scheduled at 2024-08-01 21:24:04.241183+00:00)
+Job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:26:04 UTC)" executed successfully
+Job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:26:04 UTC)" executed successfully
+Running job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:28:04 UTC)" (scheduled at 2024-08-01 21:26:04.241033+00:00)
+Running job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:28:04 UTC)" (scheduled at 2024-08-01 21:26:04.241183+00:00)
+Job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:28:04 UTC)" executed successfully
+Job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:28:04 UTC)" executed successfully
+Running job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:30:04 UTC)" (scheduled at 2024-08-01 21:28:04.241033+00:00)
+Running job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:30:04 UTC)" (scheduled at 2024-08-01 21:28:04.241183+00:00)
+Job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:30:04 UTC)" executed successfully
+Job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:30:04 UTC)" executed successfully
+Running job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:32:04 UTC)" (scheduled at 2024-08-01 21:30:04.241033+00:00)
+Running job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:32:04 UTC)" (scheduled at 2024-08-01 21:30:04.241183+00:00)
+Job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:32:04 UTC)" executed successfully
+Job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:32:04 UTC)" executed successfully
+Running job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:34:04 UTC)" (scheduled at 2024-08-01 21:32:04.241033+00:00)
+Running job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:34:04 UTC)" (scheduled at 2024-08-01 21:32:04.241183+00:00)
+Job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:34:04 UTC)" executed successfully
+Job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:34:04 UTC)" executed successfully
+Running job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:36:04 UTC)" (scheduled at 2024-08-01 21:34:04.241033+00:00)
+Running job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:36:04 UTC)" (scheduled at 2024-08-01 21:34:04.241183+00:00)
+Job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:36:04 UTC)" executed successfully
+Job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:36:04 UTC)" executed successfully
+Running job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:38:04 UTC)" (scheduled at 2024-08-01 21:36:04.241033+00:00)
+Running job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:38:04 UTC)" (scheduled at 2024-08-01 21:36:04.241183+00:00)
+Job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:38:04 UTC)" executed successfully
+Job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:38:04 UTC)" executed successfully
+Running job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:40:04 UTC)" (scheduled at 2024-08-01 21:38:04.241033+00:00)
+Running job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:40:04 UTC)" (scheduled at 2024-08-01 21:38:04.241183+00:00)
+Job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:40:04 UTC)" executed successfully
+Job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:40:04 UTC)" executed successfully
+Running job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:42:04 UTC)" (scheduled at 2024-08-01 21:40:04.241033+00:00)
+Running job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:42:04 UTC)" (scheduled at 2024-08-01 21:40:04.241183+00:00)
+Job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:42:04 UTC)" executed successfully
+Job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:42:04 UTC)" executed successfully
+Running job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:44:04 UTC)" (scheduled at 2024-08-01 21:42:04.241033+00:00)
+Running job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:44:04 UTC)" (scheduled at 2024-08-01 21:42:04.241183+00:00)
+Job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:44:04 UTC)" executed successfully
+Job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:44:04 UTC)" executed successfully
+Running job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:46:04 UTC)" (scheduled at 2024-08-01 21:44:04.241033+00:00)
+Running job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:46:04 UTC)" (scheduled at 2024-08-01 21:44:04.241183+00:00)
+Job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:46:04 UTC)" executed successfully
+Job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:46:04 UTC)" executed successfully
+Running job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:48:04 UTC)" (scheduled at 2024-08-01 21:46:04.241033+00:00)
+Running job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:48:04 UTC)" (scheduled at 2024-08-01 21:46:04.241183+00:00)
+Job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:48:04 UTC)" executed successfully
+Job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:48:04 UTC)" executed successfully
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added Job: Planet Money Podcast
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added Job: Talk Python Feed
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added Weekly Job: Delete Old Job Executions.
+Starting scheduler...
+Added job "fetch_planet_money_episodes" to job store "default"
+Added job "fetch_the_indicator_episodes" to job store "default"
+Added job "delete_old_job_executions" to job store "default"
+Scheduler started
+Running job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:49:37 UTC)" (scheduled at 2024-08-01 21:49:37.614389+00:00)
+Running job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:49:37 UTC)" (scheduled at 2024-08-01 21:49:37.614503+00:00)
+Job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:51:37 UTC)" executed successfully
+Job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:51:37 UTC)" executed successfully
+Running job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:53:37 UTC)" (scheduled at 2024-08-01 21:51:37.614389+00:00)
+Running job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:53:37 UTC)" (scheduled at 2024-08-01 21:51:37.614503+00:00)
+Job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:53:37 UTC)" executed successfully
+Job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:53:37 UTC)" executed successfully
+Running job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:55:37 UTC)" (scheduled at 2024-08-01 21:53:37.614389+00:00)
+Running job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:55:37 UTC)" (scheduled at 2024-08-01 21:53:37.614503+00:00)
+Job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:55:37 UTC)" executed successfully
+Job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:55:37 UTC)" executed successfully
+Running job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:57:37 UTC)" (scheduled at 2024-08-01 21:55:37.614389+00:00)
+Running job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:57:37 UTC)" (scheduled at 2024-08-01 21:55:37.614503+00:00)
+Job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:57:37 UTC)" executed successfully
+Job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:57:37 UTC)" executed successfully
+Running job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:59:37 UTC)" (scheduled at 2024-08-01 21:57:37.614389+00:00)
+Running job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:59:37 UTC)" (scheduled at 2024-08-01 21:57:37.614503+00:00)
+Job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:59:37 UTC)" executed successfully
+Job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 21:59:37 UTC)" executed successfully
+Running job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:01:37 UTC)" (scheduled at 2024-08-01 21:59:37.614389+00:00)
+Running job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:01:37 UTC)" (scheduled at 2024-08-01 21:59:37.614503+00:00)
+Job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:01:37 UTC)" executed successfully
+Job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:01:37 UTC)" executed successfully
+Running job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:03:37 UTC)" (scheduled at 2024-08-01 22:01:37.614389+00:00)
+Running job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:03:37 UTC)" (scheduled at 2024-08-01 22:01:37.614503+00:00)
+Job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:03:37 UTC)" executed successfully
+Job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:03:37 UTC)" executed successfully
+Running job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:05:37 UTC)" (scheduled at 2024-08-01 22:03:37.614389+00:00)
+Running job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:05:37 UTC)" (scheduled at 2024-08-01 22:03:37.614503+00:00)
+Job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:05:37 UTC)" executed successfully
+Job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:05:37 UTC)" executed successfully
+Running job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:07:37 UTC)" (scheduled at 2024-08-01 22:05:37.614389+00:00)
+Running job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:07:37 UTC)" (scheduled at 2024-08-01 22:05:37.614503+00:00)
+Job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:07:37 UTC)" executed successfully
+Job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:07:37 UTC)" executed successfully
+Running job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:09:37 UTC)" (scheduled at 2024-08-01 22:07:37.614389+00:00)
+Running job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:09:37 UTC)" (scheduled at 2024-08-01 22:07:37.614503+00:00)
+Job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:09:37 UTC)" executed successfully
+Job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:09:37 UTC)" executed successfully
+Running job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:11:37 UTC)" (scheduled at 2024-08-01 22:09:37.614389+00:00)
+Running job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:11:37 UTC)" (scheduled at 2024-08-01 22:09:37.614503+00:00)
+Job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:11:37 UTC)" executed successfully
+Job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:11:37 UTC)" executed successfully
+Running job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:13:37 UTC)" (scheduled at 2024-08-01 22:11:37.614389+00:00)
+Running job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:13:37 UTC)" (scheduled at 2024-08-01 22:11:37.614503+00:00)
+Job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:13:37 UTC)" executed successfully
+Job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:13:37 UTC)" executed successfully
+Running job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:15:37 UTC)" (scheduled at 2024-08-01 22:13:37.614389+00:00)
+Running job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:15:37 UTC)" (scheduled at 2024-08-01 22:13:37.614503+00:00)
+Job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:15:37 UTC)" executed successfully
+Job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:15:37 UTC)" executed successfully
+Running job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:17:37 UTC)" (scheduled at 2024-08-01 22:15:37.614389+00:00)
+Running job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:17:37 UTC)" (scheduled at 2024-08-01 22:15:37.614503+00:00)
+Job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:17:37 UTC)" executed successfully
+Job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:17:37 UTC)" executed successfully
+Running job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:19:37 UTC)" (scheduled at 2024-08-01 22:17:37.614389+00:00)
+Running job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:19:37 UTC)" (scheduled at 2024-08-01 22:17:37.614503+00:00)
+Job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:19:37 UTC)" executed successfully
+Job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:19:37 UTC)" executed successfully
+Running job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:21:37 UTC)" (scheduled at 2024-08-01 22:19:37.614389+00:00)
+Running job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:21:37 UTC)" (scheduled at 2024-08-01 22:19:37.614503+00:00)
+Job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:21:37 UTC)" executed successfully
+Job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:21:37 UTC)" executed successfully
+Running job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:23:37 UTC)" (scheduled at 2024-08-01 22:21:37.614389+00:00)
+Running job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:23:37 UTC)" (scheduled at 2024-08-01 22:21:37.614503+00:00)
+Job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:23:37 UTC)" executed successfully
+Job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:23:37 UTC)" executed successfully
+Running job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:25:37 UTC)" (scheduled at 2024-08-01 22:23:37.614389+00:00)
+DB error executing 'update_job' (attempt to write a readonly database). Retrying with a new DB connection...
+Running job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:25:37 UTC)" (scheduled at 2024-08-01 22:23:37.614503+00:00)
+Job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:25:37 UTC)" executed successfully
+DB error executing 'atomic_update_or_create' (attempt to write a readonly database). Retrying with a new DB connection...
+Job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:25:37 UTC)" executed successfully
+DB error executing 'atomic_update_or_create' (attempt to write a readonly database). Retrying with a new DB connection...
+Running job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:27:37 UTC)" (scheduled at 2024-08-01 22:25:37.614389+00:00)
+DB error executing 'update_job' (attempt to write a readonly database). Retrying with a new DB connection...
+Running job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:27:37 UTC)" (scheduled at 2024-08-01 22:25:37.614503+00:00)
+Job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:27:37 UTC)" executed successfully
+DB error executing 'atomic_update_or_create' (attempt to write a readonly database). Retrying with a new DB connection...
+Job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:27:37 UTC)" executed successfully
+DB error executing 'atomic_update_or_create' (attempt to write a readonly database). Retrying with a new DB connection...
+Running job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:29:37 UTC)" (scheduled at 2024-08-01 22:27:37.614389+00:00)
+Running job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:29:37 UTC)" (scheduled at 2024-08-01 22:27:37.614503+00:00)
+Job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:29:37 UTC)" executed successfully
+Job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:29:37 UTC)" executed successfully
+Running job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:31:37 UTC)" (scheduled at 2024-08-01 22:29:37.614389+00:00)
+Running job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:31:37 UTC)" (scheduled at 2024-08-01 22:29:37.614503+00:00)
+Job "fetch_planet_money_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:31:37 UTC)" executed successfully
+Job "fetch_the_indicator_episodes (trigger: interval[0:02:00], next run at: 2024-08-01 22:31:37 UTC)" executed successfully
